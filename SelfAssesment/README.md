@@ -10,7 +10,12 @@
 
 ## React/Angular
 ### React: 2
-### Angular: 3
+### Angular: 3.4
 
 ## Git/Github: 3
 ## Communication: 4
+
+# 3 Weakest Areas:
+## 1. React - Weakest
+## 2. JavaScript
+## 3. SQL
