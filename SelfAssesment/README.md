@@ -6,7 +6,7 @@
 ## HTML/CSS/JavaScript
 ### Html: 4
 ### CSS: 4
-### Javascript: 3 
+### JavaScript: 3 
 
 ## React/Angular
 ### React: 2
@@ -15,7 +15,7 @@
 ## Git/Github: 3
 ## Communication: 4
 
-# 3 Weakest Areas:
-## 1. React - Weakest
-## 2. JavaScript
-## 3. SQL
+## 3 Weakest Areas:
+### 1. React - Weakest
+### 2. JavaScript
+### 3. SQL
