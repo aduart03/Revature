@@ -3,3 +3,5 @@
 ## Java Challenge Wednesday Sep 2 in 'ChallengeJavaWedSepTwo' Folder
 ### - 1. Challenge - Calculate 5 Test Scores
 ### - 2. Challenge - REPL
+## REPL App Challenge Thursday Sep in REPL_Challenge Folder
+### - Create Simple REPL App
