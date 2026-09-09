@@ -9,3 +9,5 @@
 ### - Complete HackerRank OOP Problems
 ## DateTimeApiChallenge
 ### - Completed Date Time Api Challenge, file inside DateTimeApiChallenge folder
+## SQL Challenge
+### - Completed SQL Challenge, file inside sqlChallenge folder
