@@ -11,3 +11,5 @@
 ### - Completed Date Time Api Challenge, file inside DateTimeApiChallenge folder
 ## SQL Challenge
 ### - Completed SQL Challenge, file inside sqlChallenge folder
+## SQL Challenge Day 2
+### - Completed SQL Challenge Day 2: file inside sqlChallengeDay2 folder
