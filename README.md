@@ -13,3 +13,5 @@
 ### - Completed SQL Challenge, file inside sqlChallenge folder
 ## SQL Challenge Day 2
 ### - Completed SQL Challenge Day 2: file inside sqlChallengeDay2 folder
+## MongoDB Challenge: GadgetGalaxyChallenge
+### - Completed MongoDb Challenge. File fount in 'GadgetGalaxyChallenge' Folder
