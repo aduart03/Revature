@@ -7,7 +7,9 @@
   --text-dim: #9aa0a6;
 }
 body {
-    font-family: -apple-system, 'Segoe UI', system-ui, sans-serif; 
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 1rm;
+  line-height: 1.4;
 }
 
 .main-container {
@@ -17,20 +19,16 @@ body {
 }
 
 .main-title {
-  text-align: center;
-  margin: 0;
   padding: 2rem 1rem 0.5rem;
 }
-
-
-.main-title, h2 { 
-    font-family: 'SF Mono', 'Courier New', monospace;
+.main-title, h1, h2 { 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
 }
-.main-description{
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-}
+
 .nav-banner-list{
     list-style-type: none;
     display: flex;
@@ -63,11 +61,17 @@ body {
   max-width: 400px;
   border-radius: 12px;
 }
+
 .projects {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+  justify-content: center;
+  border-radius: 12px;
   gap: 1.5rem;
   flex: 1;
+  margin: auto, 20vh;
+  padding: 100px;
+  width: 100vh;
 }
 
 .project-card {
@@ -83,14 +87,15 @@ body {
   transform: translateY(-2px);
   border-color: var(--accent);
 }
-
 .project-card h2 {
     margin: 0 0 0.5rem; font-size: 1.25rem;
 }
 .project-card p {
     color: var(--text-dim); margin: 0 0 1rem;
 }
-.tech { display: block; margin-bottom: 1rem; }
+.tech {
+  display: block; margin-bottom: 1rem;
+}
 
 .project-link {
   color: var(--accent);
@@ -100,4 +105,9 @@ body {
 
 .project-link:hover {
     text-decoration: underline;
+}
+
+.intro-description{
+  font-family:'Courier New', Courier, monospace;
+  font-size: large;
 }

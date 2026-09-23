@@ -8,6 +8,7 @@
         <meta name="author" content="Ethan Duarte">
         <title>My Portfolio</title>
         <link rel = "stylesheet" href = "stylesheet.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="main-container">
@@ -20,17 +21,14 @@
             </nav>
 
             <div class="main-content-container">
-
                 <!-- Project Container wholeistic-->
                 <img src="img-src/a-grad-pick.JPG" class="catImage">
-                <div class="projects">
-
-                    <p>
+                <p class="intro-description">
                         Hello, my name is Ethan! I'm a Java full-stack software engineer with a 
                         background in data analytics and a strong interest in building systems 
                         that are clean under the hood, not just on the surface.
-                    </p>
-                    <p>
+                        <br>
+                        <br>
                         I hold a B.S. in Computer Science from the University of Texas at El Paso, 
                         with a concentration in Data Analytics and a minor in Mathematics. My work 
                         centers on the Java ecosystem — Spring Boot, REST APIs, JDBC, and 
@@ -42,8 +40,12 @@
                         real appreciation for iteration and for knowing when something is actually finished. 
                         I'm always looking for the next problem worth solving.
                     </p>
-
-                    <div class="project-card">
+            </div>
+            <div>
+                <h1> Here are some of my most recent projects</h1>
+            </div>
+            <div class="projects">
+                    <div class="project-card" id="bank-of-cli">
                         <h2>Bank Of CLI</h2>
                         <p>Terminal banking application with account management and transaction history.</p>
                         <span class="tech">Java · PostgreSQL · JDBC</span>
@@ -64,8 +66,6 @@
                         <a href="https://github.com/aduart03/producers-toolkit" class="project-link">View on GitHub →</a>
                     </div>
                 </div>
-
-            </div>
         </div>
     </body>
 </html>
