@@ -9,20 +9,29 @@
         <title>Ethan's Portfolio</title>
         <link rel = "stylesheet" href = "stylesheet.css">
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div class="main-container">
-            <h1 class="main-title">Ethan Duarte</h1>
+           
+
+            <section class="hero">
+            <h1 class="hero-word">PORTFOLIO</h1>
+            <img class="hero-cutout" src="img-src/a-grad-pick.JPG" alt="Ethan Duarte">
+            </section>
+            
+             <h1 class="main-title">Ethan Duarte</h1>
             <h2 class="main-description"><strong>SOFTWARE ENGINEER | FULL-STACK DEVELOPER</strong></h2>
-            <nav class="nav-banner">
-                <ul class="nav-banner-list">
-                    <li class="nav-banner-list-item"><a href="MyPortfolio.html">Home</a></li>
-                </ul>
-            </nav>
 
             <div class="main-content-container">
                 <!-- Project Container wholeistic-->
-                <img src="img-src/a-grad-pick.JPG" class="catImage">
+                 
+                
                 <p class="intro-description">
                         Hello, my name is Ethan! I'm a Java full-stack software engineer with a 
                         background in data analytics and a strong interest in building systems 
@@ -41,6 +50,36 @@
                         I'm always looking for the next problem worth solving.
                     </p>
             </div>
+
+            <!--
+                <Section> element is a semantic tag used to define a thematic grouping of content within a webpage.
+                represents usually a chapter, tabbed interface panel, or distinct blocks of a landing page.
+
+                good for SEO stuff
+
+                Typically when you use section, you want to use a h tag to give the section an explicit title and accessible name
+
+                Dont just use it for styling, if thats the case use div instead
+                
+            -->
+            <section class="Experience">
+                <h2>Experience</h2>
+
+                <div class ="exp-item">
+                    <img src="logos/revature.jpeg" class="logos" alt="revature_work_experience">
+                    <h3>Java Full-Stack Software Engineer</h3>
+                    <p class="exp-meta">Revature · Sep 2026 - Present</p>
+                    <p>Building enterprise applications with Java, Spring Boot, PostgreSQL, and React.</p>
+                </div>
+
+                <div class="exp-item">
+                    <img src="logos/Texas_A&M_University_seal.svg" class="logos" alt="texas_A&M_logo">
+                    <h3>Research Assistant</h3>
+                    <p class="exp-meta">Texas A&amp;M University · May 2026 - Jun 2026</p>
+                    <p>Windows system security research in C++: Process internals, kernel-driver communication, and DLL injection.</p>
+                </div>
+            </section>
+
             <div>
                 <h1> Here are some of my most recent projects</h1>
             </div>
