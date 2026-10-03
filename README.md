@@ -17,3 +17,6 @@
 ### - Completed MongoDb Challenge. File found in 'GadgetGalaxyChallenge' Folder
 ## Portfolio Challenge: PortfolioWebsite
 ### - Completed Portfolio Challenge. File found in 'PortfolioWebsite' Folder
+## Spring Boot Challenges 1 & 2
+#### - Challenge 1: Custom @Query endpoint (GET /api/students?lastName=), files inside SpringLecture folder
+#### - Challenge 2: Insert enrollments using a DTO (POST /api/enrollments), files inside SpringLecture folder
